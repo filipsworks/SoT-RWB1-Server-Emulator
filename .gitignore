@@ -1,1 +1,7 @@
 rwb1_protocol_spec.md
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
