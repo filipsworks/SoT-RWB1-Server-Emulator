@@ -1,7 +1,7 @@
 {
   "domain": "sot_rwb1",
   "name": "RWB1 Solar DTU (local MQTT)",
-  "codeowners": [],
+  "codeowners": ["@filipsworks"],
   "config_flow": true,
   "documentation": "https://github.com/filipsworks/SoT-RWB1-Server-Emulator",
   "iot_class": "local_push",
