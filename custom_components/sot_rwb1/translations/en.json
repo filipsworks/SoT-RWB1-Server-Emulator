@@ -1,0 +1,25 @@
+{
+  "config": {
+    "step": {
+      "user": {
+        "title": "RWB1 Solar DTU (local MQTT)",
+        "description": "Connect to the RWB1 dongle through your own MQTT broker. Point the dongle's DNS for `hongkong.broker.mqtt.solar.siseli.com` at this broker first (see the README).",
+        "data": {
+          "host": "MQTT server (host)",
+          "port": "MQTT port",
+          "device_id": "DTU number (device id)",
+          "username": "MQTT username (defaults to the DTU number)",
+          "password": "MQTT password",
+          "tls": "Use TLS"
+        }
+      }
+    },
+    "error": {
+      "cannot_connect": "Could not reach the MQTT broker. Check the host, port, and credentials.",
+      "unknown": "Unexpected error. Check the Home Assistant logs."
+    },
+    "abort": {
+      "already_configured": "This DTU is already configured."
+    }
+  }
+}
